@@ -1,0 +1,18 @@
+# Secrets / local config
+agent_config.json
+config.json
+run.bat
+serviceAccountKey.json
+*.env
+.env*
+
+# Build artifacts
+*.exe
+*.zip
+dist/
+build/
+*.syso
+
+# Go
+/vendor/
+go.sum.bak

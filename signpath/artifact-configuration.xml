@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifact-configuration xmlns="http://signpath.io/artifact-configuration/v1">
+  <zip-file>
+    <pe-file path="sarpras-agent.exe"
+             product-name="Sarpras Dapo"
+             product-version="${version}"
+             file-version="${version}"
+             company-name="Sarpras Dapo"
+             copyright="Copyright (c) 2026 Sarpras Dapo"
+             original-filename="sarpras-agent.exe">
+      <authenticode-sign />
+    </pe-file>
+  </zip-file>
+</artifact-configuration>

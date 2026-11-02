@@ -25,7 +25,7 @@ async function loadConfig() {
     if (loc.password) $('password').value = loc.password;
   }
   $('koreg').value = cfg.koreg || '';
-  $('apiKey').value = cfg.apiKey || '';
+  $('apiKey').value = cfg.apiKey || '01049ca3f8d76ca64c0350f2185e5b5476c4041b7997dc6605cfa1a0fdd04a1d';
   $('apiUrl').value = cfg.apiUrl || 'https://sarpras.cilograng.com';
   $('remember').checked = !!cfg.remember;
   $('syncSekolah').checked = cfg.syncSekolah !== false;

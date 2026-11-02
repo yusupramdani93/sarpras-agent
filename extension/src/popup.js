@@ -26,7 +26,7 @@ async function loadConfig() {
   }
   $('koreg').value = cfg.koreg || '';
   $('apiKey').value = cfg.apiKey || '';
-  $('apiUrl').value = cfg.apiUrl || '';
+  $('apiUrl').value = cfg.apiUrl || 'https://sarpras.cilograng.com';
   $('remember').checked = !!cfg.remember;
   $('syncSekolah').checked = cfg.syncSekolah !== false;
   const sel = new Set(cfg.tables || COLS.map(c => c.table));

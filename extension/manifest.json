@@ -4,7 +4,7 @@
   "short_name": "Sarpras Sync",
   "version": "1.0.0",
   "description": "Sinkronisasi data Sarpras dari Dapodik lokal ke server Sarpras Dapo.",
-  "default_locale": "id",
+
   "permissions": ["storage", "tabs", "scripting"],
   "host_permissions": [
     "http://localhost:5774/*",

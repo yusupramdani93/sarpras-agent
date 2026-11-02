@@ -4,7 +4,7 @@
   "short_name": "Sarpras Sync DEV",
   "version": "1.0.0",
   "description": "DEV build: sync ke mock API localhost:8787.",
-  "default_locale": "id",
+
   "permissions": ["storage", "tabs", "scripting"],
   "host_permissions": [
     "http://localhost:5774/*",

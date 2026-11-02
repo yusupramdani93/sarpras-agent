@@ -16,3 +16,7 @@ build/
 # Go
 /vendor/
 go.sum.bak
+# Extension
+extension/node_modules/
+extension/dev/received/
+extension/**/*.zip

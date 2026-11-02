@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sarpras Dapo Sync</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>Sarpras Dapo Sync</h1>
+    <div id="status" class="status">Siap</div>
+
+    <div class="field">
+      <label>Email / Username Dapodik</label>
+      <input id="username" type="text" placeholder="Email / Username" autocomplete="off" />
+    </div>
+    <div class="field">
+      <label>Password</label>
+      <input id="password" type="password" placeholder="Password" autocomplete="off" />
+    </div>
+    <div class="field">
+      <label>Kode Registrasi</label>
+      <input id="koreg" type="text" placeholder="Kode Registrasi" autocomplete="off" />
+    </div>
+    <div class="field">
+      <label>API Key Server (opsional)</label>
+      <input id="apiKey" type="password" placeholder="Kosongkan jika tidak dipakai" autocomplete="off" />
+    </div>
+    <div class="field">
+      <label>URL API (opsional)</label>
+      <input id="apiUrl" type="text" placeholder="https://sarpras.cilograng.com" autocomplete="off" />
+    </div>
+    <div class="row">
+      <label><input id="remember" type="checkbox" /> Ingat password di perangkat ini</label>
+      <label><input id="syncSekolah" type="checkbox" checked /> Sekolah</label>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Pilih koleksi data</div>
+      <div id="cols" class="cols"></div>
+    </div>
+
+    <div class="actions">
+      <button id="start" class="primary">Mulai Sync ke Server</button>
+      <button id="stop" class="secondary" disabled>Stop</button>
+      <button id="clear" class="link">Bersihkan log</button>
+    </div>
+
+    <div class="progress-wrap">
+      <div id="bar" class="bar"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Log aktivitas</div>
+      <pre id="log" class="log"></pre>
+    </div>
+
+    <div id="dapodikHint" class="hint"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
